@@ -1,0 +1,122 @@
+#include <iostream>
+
+using namespace std;
+
+
+int height;
+int weight;
+double shoeSize;
+
+
+int main() {
+cout << "Enter height in inches" << endl;
+    cin >> height;
+cout << "Enter weight in pounds" << endl;
+    cin >> weight;
+cout << "Enter shoe size" << endl;
+    cin >> shoeSize;
+
+        if (height<=60){
+            
+                if (weight<=100){
+                    cout << "Board size: 146-148cm" << endl;
+                }else if (weight <= 130){
+                    cout << "Board size: 147-149cm" << endl;
+                }else if (weight <= 150){
+                    cout << "Board size: 150-152cm" << endl; 
+                }else if (weight <= 175){
+                    cout << "Board size: 153-155cm" << endl;    
+                }else if (weight <= 195){
+                    cout << "Board size: 154-156cm" << endl;    
+                }else if (weight<= 210){
+                    cout << "Board size: 157-159cm WIDE" << endl;
+                }else if (weight > 210){
+                    cout << "Board size: 158-160cm WIDE" << endl;    
+                }
+        
+        }else if (height <= 66){
+            
+                if (weight < 110) {
+                    cout << "Board size: 147-149cm" << endl;
+                }else if (weight <= 130){
+                    cout << "Board size: 149-151cm" << endl;
+                }else if (weight <= 150){
+                    cout << "Board size: 151-153cm" << endl; 
+                }else if (weight <= 175){
+                    cout << "Board size: 154-156cm" << endl;
+                }else if (weight <= 195){
+                 cout << "Board size: 155-157cm" << endl;
+                }else if (weight <= 210){
+                 cout << "Board size: 158-160cm WIDE" << endl;
+                }else if (weight > 210){
+                  cout << "Board size: 159-161cm WIDE" << endl;
+                }
+
+        }else if (height <= 72){
+        
+                if (weight < 110) {
+                    cout << "Board size: 149-151cm" << endl;
+                }else if (weight <= 130){
+                    cout << "Board size: 150-152cm" << endl;
+                }else if (weight <= 150){
+                    cout << "Board size: 153-155cm" << endl; 
+                }else if (weight <= 175){
+                    cout << "Board size: 155-157cm" << endl;
+                }else if (weight <= 195){
+                    cout << "Board size: 158-160cm" << endl;
+                }else if (weight <= 210){
+                    cout << "Board size: 159-161cm WIDE" << endl;
+                }else if (weight > 210){
+                    cout << "Board size: 162-164cm WIDE" << endl;
+                }
+    
+        }else if (height <= 77){
+
+                if (weight < 110) {
+                    cout << "Board size: 150-152cm" << endl;
+                }else if (weight <= 130){
+                    cout << "Board size: 151-153cm" << endl;
+                }else if (weight <= 150){
+                    cout << "Board size: 154-156cm" << endl; 
+                }else if (weight <= 175){
+                    cout << "Board size: 157-159cm" << endl;
+                }else if (weight <= 195){
+                    cout << "Board size: 158-160cm" << endl;
+                }else if (weight <= 210){
+                    cout << "Board size: 161-163cm WIDE" << endl;
+                }else if (weight > 210){
+                    cout << "Board size: 162-164cm WIDE" << endl;
+                    }
+    
+        }else if (height > 77){
+                    
+        
+                if (weight < 110) {
+                    cout << "Board size: 151-153cm" << endl;
+                }else if (weight <= 130) {
+                    cout << "Board size: 153-155cm" << endl;
+                }else if (weight <= 150) {
+                    cout << "Board size: 155-157cm" << endl; 
+                }else if (weight <= 175) {
+                    cout << "Board size: 158-160cm" << endl;
+                }else if (weight <= 195) {
+                    cout << "Board size: 159-161cm" << endl;
+                }else if (weight <= 210) {
+                    cout << "Board size: 162-164cm WIDE" << endl;
+                } else if (weight > 210) {
+                    cout << "Board size: 164-166cm WIDE" << endl;
+                }
+                
+            }
+            
+    if (shoeSize <=8){
+            cout << "Medium bindings" << endl;
+        } else if (shoeSize <=11){
+            cout << "Large bindings" << endl;
+        } else if (shoeSize <=15 ){
+            cout << "XL bindings recommended with WIDE board" << endl;
+        }
+
+        
+            return 0;
+        }
